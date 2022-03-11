@@ -11,7 +11,8 @@ app.use(express.json());
 app.use(cors());
 app.use(Routes); // routers 
 
-app.listen(3000, ()=>{
-    console.log(`app runing on ${3000}`);
-});
+const server = app.listen(process.env.PORT || 5000, () => {
+    const port = server.address().port;
+    console.log(`Express is working on port ${port}`);
+  });
 
