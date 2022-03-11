@@ -4,6 +4,7 @@
   "description": "API ejempo curso Angular UCreativa",
   "main": "index.js",
   "scripts": {
+    "web":"node index.js",
     "local": "ENVIRONMENT=local nodemon index.js",
     "start": "ENVIRONMENT=production node index.js",
     "dev": "ENVIRONMENT=develop nodemon index.js",
