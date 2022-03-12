@@ -14,10 +14,10 @@ class DataBaseHelper {
         let result = null;
 
         pool = new Pool({
-            host: "ec2-54-156-110-139.compute-1.amazonaws.com",
-            database: "d5251m70nm0dnb",
-            user: "ouqftlqbrrjjwo",
-            password: "14e7f860da783089671e6fd6365df50cabb44f03215b6c2aa8487e0718218393",
+            host: "ec2-54-90-211-192.compute-1.amazonaws.com",
+            database: "d25upaleb0d7f7",
+            user: "zdwvxzwnelzqyo",
+            password: "46bfe1651e99a9def0967f09b48493cf36ea7f43ad3161ed630f591e1a116d6d",
             port: 5432,
             max: 25,
             ssl: { // para conectarse con heroku
